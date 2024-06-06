@@ -25,6 +25,7 @@ const nextConfig = {
     return config;
   },
   env: {
+    // This is used on middleware
     DEVELOPER_DOCS_: !!process.env.DEVELOPER_DOCS,
   },
 };
