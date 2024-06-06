@@ -24,6 +24,9 @@ const nextConfig = {
 
     return config;
   },
+  env: {
+    DEVELOPER_DOCS_: !!process.env.DEVELOPER_DOCS,
+  },
 };
 
 const withMDX = createMDX({
